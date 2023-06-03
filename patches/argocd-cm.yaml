@@ -5,3 +5,4 @@ metadata:
 data:
   timeout.reconciliation: 300s
   accounts.alina: apiKey, login
+  admin.enabled: "false"
