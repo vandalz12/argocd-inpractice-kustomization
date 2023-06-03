@@ -5,3 +5,5 @@ bases:
   - https://raw.githubusercontent.com/argoproj/argo-cd/v2.7.3/manifests/install.yaml
 resources:
   - resources/namespace.yaml
+patchesStrategicMerge:
+  - patches/argocd-cm.yaml
